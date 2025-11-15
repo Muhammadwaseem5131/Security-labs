@@ -22,3 +22,13 @@ Only the DVWA web application was found with a weak configuration.
 
 ## What I Learned
 IoT devices often ship with Telnet, FTP, and SNMP enabled by default with no passwords or known community strings. The Mirai botnet infected over 600,000 devices in 2016 using only default credentials. Finding none of those services here is good, but DVWA still exposes the danger of leaving default passwords unchanged. Always scan for these services when auditing any network.
+
+## Screenshots
+
+![Telnet Scan](screenshots/lab11_01_telnet.png)
+
+![Web Service Check](screenshots/lab11_02_web.png)
+
+![Default Credentials](screenshots/lab11_03_creds.png)
+
+![Risk Summary](screenshots/lab11_04_risk.png)

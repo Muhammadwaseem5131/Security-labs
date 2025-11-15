@@ -34,3 +34,13 @@ Overall risk rating: **HIGH**
 
 ## What I Learned
 A real security report must be readable by someone who did not do the testing. Each finding needs: what it is, why it matters, and exactly how to fix it. Sorting by severity tells the reader where to focus first. The best reports are short and specific — not long lists of technical details that nobody reads.
+
+## Screenshots
+
+![Wordlists](screenshots/lab12_01_wordlists.png)
+
+![Hashing](screenshots/lab12_02_hashing.png)
+
+![Brute Force](screenshots/lab12_03_bruteforce.png)
+
+![Session Summary](screenshots/lab12_04_session.png)

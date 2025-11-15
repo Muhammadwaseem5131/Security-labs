@@ -18,3 +18,15 @@ Exploit the SQL injection vulnerability in DVWA to extract all user records from
 
 ## What I Learned
 SQL injection happens when user input goes directly into a SQL query without any sanitisation. The single quote `'` breaks out of the string context. `OR '1'='1'` is always true so it bypasses the ID filter and returns everything. UNION SELECT lets you attach a second query to read any table or call database functions. The fix is always to use parameterised queries (prepared statements) — never string-build SQL with user input.
+
+## Screenshots
+
+![SQLi Page](screenshots/lab9_sqli_page.png)
+
+![Normal Query](screenshots/lab9_sqli_normal_query.png)
+
+![Payload Typed](screenshots/lab9_sqli_payload_typed.png)
+
+![All Users Dumped](screenshots/lab9_sqli_all_users.png)
+
+![Union Version](screenshots/lab9_sqli_union_version.png)

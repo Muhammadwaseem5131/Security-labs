@@ -19,3 +19,13 @@ Run a full nmap aggressive scan on the gateway to get OS detection, service vers
 
 ## What I Learned
 `-A` is shorthand for four flags combined: OS detection (`-O`), version detection (`-sV`), default scripts (`--script=default`), and traceroute (`--traceroute`). It gives a complete picture of a target in one scan. SMB signing not required means an attacker on the same network could intercept and relay authentication — a real-world attack known as NTLM relay.
+
+## Screenshots
+
+![Aggressive Scan](screenshots/lab6_01_scan.png)
+
+![Ports Table](screenshots/lab6_02_ports.png)
+
+![OS Detection](screenshots/lab6_03_os.png)
+
+![SMB Scripts](screenshots/lab6_04_smb.png)

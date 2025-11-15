@@ -25,3 +25,13 @@ No authentication failures or suspicious login attempts found.
 
 ## What I Learned
 `journalctl` is the systemd log viewer — it replaces the old `/var/log/syslog` on modern Linux systems. The kernel errors about vmwgfx are expected and harmless when running inside VirtualBox. In a real incident, logs are the most important source of evidence because they record exactly what happened and when. Monitoring for "Failed password for" or unexpected `sudo` usage in logs can catch attackers early.
+
+## Screenshots
+
+![Recent Logs](screenshots/lab15_01_recent.png)
+
+![Kernel Messages](screenshots/lab15_02_kernel.png)
+
+![Error Logs](screenshots/lab15_03_errors.png)
+
+![Service Status](screenshots/lab15_04_services.png)

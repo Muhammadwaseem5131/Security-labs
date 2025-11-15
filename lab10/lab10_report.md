@@ -18,3 +18,21 @@ Exploit reflected and stored XSS vulnerabilities in DVWA to execute JavaScript i
 
 ## What I Learned
 XSS happens when a web page outputs user input directly into HTML without encoding it. The browser sees the `<script>` tag as code and runs it. Reflected XSS only affects the current request. Stored XSS is saved in the database and attacks every future visitor — much more dangerous. The fix is to HTML-encode all output using functions like `htmlspecialchars()` in PHP.
+
+## Screenshots
+
+![XSS Page](screenshots/lab10_xss_page.png)
+
+![Normal Input](screenshots/lab10_xss_normal.png)
+
+![Payload Typed](screenshots/lab10_xss_payload_typed.png)
+
+![Reflected XSS](screenshots/lab10_xss_reflected.png)
+
+![After Alert](screenshots/lab10_xss_after_alert.png)
+
+![Stored XSS Page](screenshots/lab10_xss_stored_page.png)
+
+![Stored Payload](screenshots/lab10_xss_stored_payload.png)
+
+![Stored Result](screenshots/lab10_xss_stored_result.png)

@@ -26,3 +26,13 @@ On this system: DVWA with default credentials is the only confirmed default-conf
 
 ## What I Learned
 "Default" almost always means "insecure." Every service is shipped for convenience, not security. The Mirai botnet proved that millions of devices worldwide never have their defaults changed. Changing every default password, disabling every unused service, and binding services to localhost when they do not need to be network-accessible are the three most impactful things you can do to harden any system.
+
+## Screenshots
+
+![Packet Capture](screenshots/lab13_01_capture.png)
+
+![Replay Analysis](screenshots/lab13_02_replay.png)
+
+![TCP Flags](screenshots/lab13_03_flags.png)
+
+![XSS Evidence](screenshots/lab13_04_xss.png)

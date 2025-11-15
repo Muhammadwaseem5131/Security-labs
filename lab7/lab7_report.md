@@ -29,3 +29,13 @@ Running with default credentials (admin/password). Contains intentional SQL inje
 
 ## What I Learned
 Not all open ports are equal risk. The service type, version, known CVEs, and whether encryption is used all affect how dangerous a port is. SMB is consistently the most dangerous Windows service to expose. Writing risk notes with a level and recommendation is the real output of a security scan.
+
+## Screenshots
+
+![Vulnerability Scan](screenshots/lab7_01_vuln.png)
+
+![MS17-010 Check](screenshots/lab7_02_ms17010.png)
+
+![HTTP Scan](screenshots/lab7_03_http.png)
+
+![Summary](screenshots/lab7_04_summary.png)

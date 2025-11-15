@@ -24,3 +24,13 @@ No indicators of compromise found on this system.
 
 ## What I Learned
 Malware leaves traces in three places: processes, network, and files. Knowing what is "normal" on a clean system is essential — you cannot spot anomalies without a baseline. Malware commonly listens on port 4444 (Metasploit default) or connects outbound to unknown IPs. Cron jobs and systemd services are the two main ways malware survives reboots (persistence). Tools like Volatility (memory forensics) and YARA (signature matching) extend this kind of manual analysis in real investigations.
+
+## Screenshots
+
+![Running Processes](screenshots/lab18_01_processes.png)
+
+![Network Connections](screenshots/lab18_02_network.png)
+
+![Persistence Check](screenshots/lab18_03_persist.png)
+
+![IOC Summary](screenshots/lab18_04_ioc.png)

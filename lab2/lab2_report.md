@@ -20,3 +20,13 @@ Scan completed in under 3 seconds.
 
 ## What I Learned
 `nmap -sn` performs a ping sweep — it sends ICMP echo requests and TCP probes to every address in the range and reports which ones reply. No ports are scanned. This is the very first step in any network security assessment: identify who is on the network before probing anything further.
+
+## Screenshots
+
+![Ping Sweep](screenshots/lab2_01_sweep.png)
+
+![Hosts Found](screenshots/lab2_02_hosts.png)
+
+![ARP Table](screenshots/lab2_03_arp.png)
+
+![Summary](screenshots/lab2_04_summary.png)

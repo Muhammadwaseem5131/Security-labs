@@ -22,3 +22,13 @@ Analyse suspicious files without executing them using static analysis tools to i
 
 ## What I Learned
 Static analysis means examining a file without ever running it — always the safe first step. The `file` command reads the magic bytes in the file header to identify its true type, ignoring the filename extension. `strings` extracts all readable text embedded in any binary. Base64 is the most common obfuscation trick in malware scripts because it hides the real command from casual inspection. SUID binaries run as root regardless of who launches them — finding unexpected ones is a red flag for privilege escalation.
+
+## Screenshots
+
+![File Types](screenshots/lab17_01_filetypes.png)
+
+![Strings Output](screenshots/lab17_02_strings.png)
+
+![Base64 Decode](screenshots/lab17_03_decode.png)
+
+![Verdict](screenshots/lab17_04_verdict.png)

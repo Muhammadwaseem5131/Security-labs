@@ -19,3 +19,13 @@ Scan the gateway host (10.0.2.2) to discover which TCP ports are open in the ran
 
 ## What I Learned
 A port scan reveals what services are accepting connections on a target. Open ports are the attack surface — each one is a potential entry point. Ports 135 and 445 are standard Windows services. Ports 902 and 912 are VMware-specific management ports, which tells us the target machine is running virtualization software.
+
+## Screenshots
+
+![Port Scan](screenshots/lab3_01_scan.png)
+
+![Open Ports](screenshots/lab3_02_open.png)
+
+![Kali Ports](screenshots/lab3_03_kali.png)
+
+![Common Ports](screenshots/lab3_04_common.png)

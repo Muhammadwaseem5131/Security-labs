@@ -29,3 +29,13 @@ Hash verification: `md5sum -c` printed `OK` for unchanged file, `FAILED` for mod
 
 ## What I Learned
 A hash is a fixed-size digital fingerprint of a file. Even changing one byte produces a completely different hash — this is called the avalanche effect. MD5 (32 chars) is fast but broken for security. SHA256 (64 chars) is the current standard. Antivirus tools compare file hashes to known malware databases. When downloading software you should always verify the SHA256 hash matches the one published by the developer.
+
+## Screenshots
+
+![Passwd Hashes](screenshots/lab14_01_passwd.png)
+
+![Test File](screenshots/lab14_02_testfile.png)
+
+![Tamper Detection](screenshots/lab14_03_tamper.png)
+
+![System Hashes](screenshots/lab14_04_system.png)

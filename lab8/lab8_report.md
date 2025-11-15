@@ -21,3 +21,19 @@ Set up DVWA (Damn Vulnerable Web Application) on Kali Linux and log in successfu
 
 ## What I Learned
 DVWA is a PHP/MySQL web application built to practice web attacks legally. Setting security to "Low" removes all input filtering, making it easy to test SQL injection and XSS. The default credentials (admin/password) represent the most common real-world misconfiguration — leaving factory defaults unchanged.
+
+## Screenshots
+
+![DVWA Login Page](screenshots/lab8_dvwa_login_page.png)
+
+![Login Filled](screenshots/lab8_dvwa_login_filled.png)
+
+![DVWA Setup](screenshots/lab8_dvwa_setup.png)
+
+![Setup Done](screenshots/lab8_dvwa_setup_done.png)
+
+![DVWA Dashboard](screenshots/lab8_dvwa_dashboard.png)
+
+![Security Low](screenshots/lab8_dvwa_security_low.png)
+
+![DVWA Login](screenshots/lab8_dvwa_login.png)

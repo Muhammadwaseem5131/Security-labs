@@ -40,3 +40,13 @@ Build a visual map of the entire discovered network showing all hosts, their IPs
 
 ## What I Learned
 A network map turns raw scan data into something you can read at a glance. It shows relationships between hosts, which services face the network, and where the boundaries are. In a real engagement, this map guides which hosts to focus on and what attack paths exist between them.
+
+## Screenshots
+
+![Host Sweep](screenshots/lab5_01_sweep.png)
+
+![Traceroute](screenshots/lab5_02_traceroute.png)
+
+![ARP Table](screenshots/lab5_03_arp.png)
+
+![Topology](screenshots/lab5_04_topology.png)
